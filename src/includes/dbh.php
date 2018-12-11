@@ -1,6 +1,6 @@
 
 <?php
-
+//using MAMP
 //connecting to the database
 $dbServername = "localhost";
 $dbUsername = "root";
