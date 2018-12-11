@@ -1,0 +1,98 @@
+body{
+    //background-color: #124e89;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../misc/picture.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+@font-face{
+    font-family: 'test font';
+    src: url('../misc/Ailerons.otf');
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 35px;
+    font-family: 'test font';
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #5fc963;
+    color: white;
+}
+
+.sidebar a.option{
+    background-color: #4CAF50;
+    color: white;
+}
+
+div.content {
+    margin-left: 310px;
+    padding: 1px 16px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.sidebar a {float: left;}
+div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+}
+}
+
+.content{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #4CAF50;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 59.5px;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+}

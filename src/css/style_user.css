@@ -1,0 +1,588 @@
+body{
+    //background-color: #124e89;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../misc/picture.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: 0px 400px;
+    margin-bottom: 500px;
+}
+
+@font-face{
+    font-family: 'test font';
+    src: url('../misc/Ailerons.otf');
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    margin-top: 0px;
+    top: 0;
+    width: 100%;
+    height: 200px;
+}
+
+.header {
+    font-family: "test font";
+    margin: 2px;
+    color: white;
+    font-size: 50px;
+    text-align: center;;
+    padding: 20px 0;
+    //display: none;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #EDF5FC;
+    position: sticky;
+    height: auto;
+    overflow: auto;
+    margin-top: -50px;
+    top: 0;
+    z-index: 2;
+}
+
+.sidebar-back{
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #EDF5FC;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    margin-top: 100px;
+    top: 0;
+    z-index: 0;
+}
+
+.sidebar p{
+    font-size: 15px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #272D2D;
+    position: sticky;
+    margin-top: 100px;
+    margin-left: 300px;
+    top: 0;
+    width: auto;
+    height: 50px;
+    z-index: 1;
+}
+
+.body {
+    margin-top: 150px;
+    margin-left: 331.45px;
+    position: absolute;
+    background-color: #D8DFE8;
+    width: 80.1%;
+    height: 150vh;
+    top: 0;
+    z-index: 0;
+}
+
+.body .text{
+    margin-top: 20px;
+    margin-left: 420px;
+    margin-right: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px;
+}
+
+.userInfo{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 24px;
+    padding: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.profile-image {
+    margin-bottom: 20px;
+}
+
+.sidebar-right {
+    margin: 0;
+    padding: 0;
+    width: 431.45px;
+    background-color: #3A4040;
+    position: absolute;
+    height: 150vh;
+    overflow: auto;
+    margin-top: 150px;
+    margin-left: 300px;
+    top: 0;
+    z-index: 0;
+}
+
+.sidebar-right .text{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.sidebar-right .follow-pages{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 15px;
+}
+
+.topnav a {
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 50px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #5fc963;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidebar-right input[type=text] {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 80%;
+    border: 0;
+    margin: 0 0 15px;
+    margin-left: 16px;
+    margin-bottom: 0px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px
+}
+
+.sidebar-right .search-container button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 12%;
+    border: 9;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    border-style: solid;
+}
+
+.sidebar-right .search-container button:hover {
+    background: #5fc963;
+}
+
+.sidebar-right .posts button{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #3A4040;
+    width: 100%;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    border-style: none;
+    text-align: left;
+}
+
+.sidebar-right .posts button:hover {
+    background: #272D2D;
+}
+
+.sidebar-right .posts .edit button:hover {
+    background: #3A4040;
+}
+
+hr {
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0.5px;
+    border-color: #272D2D;
+}
+
+.comments hr {
+    border-color: rgb(0,0,0,0.2);
+    margin-bottom:10px;
+}
+
+.body .message {
+    margin-top: 15px;
+    margin-left: 420px;
+    margin-right: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+.body .message input[type=text]{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 80%;
+    border: 0;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px
+}
+
+.body .message button{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #4CAF50;
+    width: 8%;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    border-style: none;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.body .message button:hover {
+    background: #5fc963;
+}
+
+.body .message-box{
+    margin-top: 20px;
+    margin-left: 420px;
+    margin-right: 50px;
+    width: 58.3%;
+    height: 40%;
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.body .message-box .incoming{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #4CAF50;
+    max-width: auto;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    border-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    float: left;
+    border-radius: 25px;
+}
+
+.body .message-box .outgoing{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #41BBD9;
+    max-width: auto;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    border-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    float: right;
+    border-radius: 25px;
+}
+
+.people-userinfo input{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #4CAF50;
+    max-width: auto;
+    padding: 8px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.people-userinfo button{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #4CAF50;
+    max-width: auto;
+    height: 22px;
+    font-size: 14px;
+    width: 100%;
+    color: #ffffff;
+    cursor: pointer;
+    border-style: none;
+}
+
+.people-userinfo input:hover, button:hover{
+    background: #5fc963;
+}
+
+
+
+.print-posts {
+    background-color: #EDF5FC;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+
+a{
+    color: black;
+    text-decoration: none
+}
+
+.comments a{
+    color: black;
+    text-decoration: none
+}
+
+.comments a:active{
+    color: #5fc963;
+}
+
+.favorite a:active{
+    color: red;
+}
+
+.body .comments {
+    background-color: #EDF5FC;
+    padding: 12px;
+    margin-top: -8px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+.type-comment {
+    margin-top: 10px;
+}
+
+.type-comment input[type=text]{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #D8DFE8;
+    width: 90%;
+    border: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px
+}
+
+.type-comment button{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #4CAF50;
+    width: 6%;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    border-style: none;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.type-comment button:hover {
+    background: #5fc963;
+}
+
+.follow-pages button{
+   float: right;
+   margin-right: 15px;
+   font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #3A4040;
+    width: 12%;
+    border: 9;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    border-style: none;
+    margin-top: -10px;
+}
+
+.follow-pages button:hover{
+    background: #272D2D;
+}
+
+.message-area textarea{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    height: 4%;
+    border: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px
+    margin-right: 20%;
+}
+
+.message-area input{
+    width: 100%;
+}
+
+.new-page-creation{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    //background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../misc/picture.jpg);
+    padding: 5%;
+    background-size: cover;
+}
+
+.new-page-creation .new-page-top-part input{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 35%;
+    border: 0;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.new-page-creation .new-page-bottom-part label{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.new-page-creation button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 35%;
+    border: 9;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    border-style: solid;
+}
+
+.new-page-creation button:hover {
+    background: #5fc963;
+}
+
+.page-info hr {
+    border-color: rgb(0,0,0,0.2);
+    margin-bottom:10px;
+}
+
+.body .page-info {
+    //background-color: #EDF5FC;
+    padding: 12px;
+    //margin-bottom: 12px;
+    //border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+}
+
+.page-info button{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #4CAF50;
+    max-width: auto;
+    padding: 8px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    border-style: none;
+    float: right;
+    margin-top: 25px;
+}
+
+.page-info button:hover{
+    background: #5fc963;
+}
+
+.post-textarea{
+    background-color: #EDF5FC;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+}
+
+
+.post-textarea textarea{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #EDF5FC;
+    width: 35%;
+    height: 5%;
+    border: 0;
+    font-size: 14px;
+    resize: none;
+}
+
+.post-textarea button{
+    width: 15%;
+    margin-bottom: -20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #D8DFE8;
+    border-radius: 10px;
+    color: black;
+    border-style: none;
+    outline: 0;
+    height: 1.5%;
+}
+
+.post-textarea button:hover{
+    background-color: #5fc963;
+    border-radius: 10px;
+
+}
+
+/*@media screen and (max-width: 600px) {
+  .sidebar-right .search-container {
+    float: none;
+  }
+  .topnav a, .sidebar-right input[type=text], .sidebar-right .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .sidebar-right input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+*/

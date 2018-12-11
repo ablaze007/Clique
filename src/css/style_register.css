@@ -1,0 +1,100 @@
+body{
+    //background-color: #124e89;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../misc/picture.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+@font-face{
+    font-family: 'test font';
+    src: url('../misc/Ailerons.otf');
+}
+
+.register-page{
+    width: 360px;
+    padding-top: 4%;
+    padding-right: 8%;
+    margin: auto;
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    width: 360;
+    margin: auto;
+    padding: 45px;
+    text-align: center;
+}
+
+.name input{
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 49.44%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px
+}
+
+.other_info input{
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px
+}
+
+.form button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 9;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    border-style: solid;
+}
+
+.form button:hover, .form button:active{
+    background: #5fc963;
+}
+
+.header{
+    position: relative;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    width: 442px;
+    margin: 0 auto 10px;
+    padding: 4px;
+    text-align: center;
+}
+
+.header .title{
+    font-family: "test font";
+    margin: 10px;
+    color: white;
+    font-size: 40px;
+}
+
+.form .message{
+    font-family: "Roboto", sans-serif;
+    margin: 15px 0 0;
+    color: white;
+    font-size: 12px;
+}
+
+.form .message a{
+    color: #4caf50;
+    text-decoration: none
+}
