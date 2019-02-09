@@ -22,7 +22,7 @@ MySQL, PHP, HTML5, CSS3, and JavaScript
         - Schema_diagram.xml and .png
 
     src:
-		- all the source code (PHP + HTML + CSS)
+	- all the source code (PHP + HTML + CSS)
 
     Assumtions.docx
 
