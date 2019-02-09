@@ -25,7 +25,10 @@ MySQL, PHP, HTML5, CSS3, and JavaScript
 	- all the source code (PHP + HTML + CSS)
 
     Assumtions.docx
-
+    
+*********** LIMITATION ****************
+The database used is local to the device 
+and was set-up using MAMP
 	
 ******** DATABASE STRUCTURE ***********	
 	
